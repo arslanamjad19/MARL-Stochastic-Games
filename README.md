@@ -94,20 +94,12 @@ The implementation reproduces key findings from the paper:
 - **Stochastic Stability**: As ε → 0, only stochastically stable equilibria receive positive probability
 - **Policy Evolution**: Visualization shows clear convergence patterns over thousands of iterations
 
-## Requirements
-
-```
-numpy
-matplotlib
-pandas
-```
-
 ## Installation
 
 ```bash
 git clone https://github.com/yourusername/equilibrium-selection-marl
 cd equilibrium-selection-marl
-pip install -r requirements.txt
+pip install numpy matplotlib pandas
 ```
 
 ## Limitations and Future Work
@@ -150,7 +142,3 @@ This is an **independent implementation** for a semester research project. It is
 ## Contact
 
 For questions or issues, please open an issue on this repository.
-
----
-
-**Note**: This is a reproduction attempt and educational project. Results may vary from the original paper due to implementation details, hyperparameters, and computational resources.
