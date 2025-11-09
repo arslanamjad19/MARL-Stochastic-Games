@@ -55,7 +55,7 @@ The code implements Algorithm 1 from the paper with the following components:
 
 3. **Policy Tracking**: Empirical frequency estimation of policy convergence
 
-### Example: Stage-Hunt Game
+### Example: Stag-Hunt Game
 
 The implementation includes a two-stage stag-hunt game example:
 - **Stag (a=0)**: High reward (3.75 per player) but requires cooperation for 2 stages
